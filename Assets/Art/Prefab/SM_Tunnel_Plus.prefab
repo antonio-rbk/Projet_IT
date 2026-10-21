@@ -10,15 +10,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: a4cd7e722ee80d542a913d132bc4660c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -16.61577
+      value: -15.472979
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a4cd7e722ee80d542a913d132bc4660c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0000003825088
+      value: 0.0009858502
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a4cd7e722ee80d542a913d132bc4660c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -16.621462
+      value: 30.375038
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a4cd7e722ee80d542a913d132bc4660c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -48,6 +48,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a4cd7e722ee80d542a913d132bc4660c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 057868706dbfdd24e9d3e9f18579d0ed, type: 2}
     - target: {fileID: 919132149155446097, guid: a4cd7e722ee80d542a913d132bc4660c, type: 3}
       propertyPath: m_Name
       value: SM_Tunnel_Plus
