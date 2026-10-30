@@ -50,11 +50,11 @@ MonoBehaviour:
     m_Values:
     - position: {x: -1, y: 0, z: -1}
       index: 0
-      probeCount: 2240
+      probeCount: 1408
       minSubdiv: 0
       indexChunkCount: 91
       shChunkCount: 1
-      bricksCount: 35
+      bricksCount: 22
       indirectionEntryInfo:
       - positionInBricks: {x: -27, y: 0, z: -27}
         minSubdiv: 0
@@ -78,11 +78,11 @@ MonoBehaviour:
         hasOnlyBiggerBricks: 0
     - position: {x: 0, y: 0, z: -1}
       index: 1
-      probeCount: 3456
+      probeCount: 2176
       minSubdiv: 0
       indexChunkCount: 91
       shChunkCount: 1
-      bricksCount: 54
+      bricksCount: 34
       indirectionEntryInfo:
       - positionInBricks: {x: 0, y: 0, z: -27}
         minSubdiv: 0
@@ -92,11 +92,11 @@ MonoBehaviour:
         hasOnlyBiggerBricks: 0
     - position: {x: 0, y: 0, z: 0}
       index: 7
-      probeCount: 2560
+      probeCount: 1408
       minSubdiv: 0
       indexChunkCount: 91
       shChunkCount: 1
-      bricksCount: 40
+      bricksCount: 22
       indirectionEntryInfo:
       - positionInBricks: {x: 0, y: 0, z: 0}
         minSubdiv: 0
@@ -127,7 +127,7 @@ MonoBehaviour:
     m_Keys:
     - Default
     m_Values:
-    - sceneHash: -173656682
+    - sceneHash: 825621900
       cellDataAsset:
         m_AssetGUID: 76a20adae13bfb246a1bfe89f7e9eddb
         m_StreamableAssetPath: APVStreamingAssets\e07add382efea3a47a698e0b6edbe3a2\76a20adae13bfb246a1bfe89f7e9eddb.bytes
@@ -184,13 +184,13 @@ MonoBehaviour:
       m_Keys: 00000000060000000100000007000000
       m_Values:
       - offset: 0
-        elementCount: 35
-      - offset: 560
         elementCount: 22
-      - offset: 912
-        elementCount: 54
-      - offset: 1776
-        elementCount: 40
+      - offset: 352
+        elementCount: 22
+      - offset: 704
+        elementCount: 34
+      - offset: 1248
+        elementCount: 22
     m_Asset: {fileID: 4900000, guid: a29469bb5de86da478546dad04e48d10, type: 3}
   cellSupportDataAsset:
     m_AssetGUID: 8f9c4ea4665de5346b9d329a4af0710a
