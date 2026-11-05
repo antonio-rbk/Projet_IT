@@ -3,16 +3,16 @@
         {
             "Name": "Scene Manager",
             "TextColor": {
-                "r": 1.0,
-                "g": 1.0,
-                "b": 1.0,
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
                 "a": 1.0
             },
             "IsGradientBackground": false,
             "BackgroundColor": {
-                "r": 0.5,
-                "g": 0.5,
-                "b": 0.5,
+                "r": 0.4941176772117615,
+                "g": 0.8392157554626465,
+                "b": 0.988235354423523,
                 "a": 1.0
             },
             "BackgroundGradient": {
@@ -94,16 +94,16 @@
         {
             "Name": "Lights",
             "TextColor": {
-                "r": 1.0,
-                "g": 1.0,
-                "b": 1.0,
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
                 "a": 1.0
             },
             "IsGradientBackground": false,
             "BackgroundColor": {
-                "r": 0.5,
-                "g": 0.5,
-                "b": 0.5,
+                "r": 0.988235354423523,
+                "g": 0.7490196228027344,
+                "b": 0.027450982481241227,
                 "a": 1.0
             },
             "BackgroundGradient": {
@@ -185,16 +185,16 @@
         {
             "Name": "Interactable",
             "TextColor": {
-                "r": 1.0,
-                "g": 1.0,
-                "b": 1.0,
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
                 "a": 1.0
             },
             "IsGradientBackground": false,
             "BackgroundColor": {
-                "r": 0.5,
-                "g": 0.5,
-                "b": 0.5,
+                "r": 0.6901960968971252,
+                "g": 0.988235354423523,
+                "b": 0.3490196168422699,
                 "a": 1.0
             },
             "BackgroundGradient": {
