@@ -209,6 +209,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 829814278}
     m_Modifications:
+    - target: {fileID: 2185293703056222804, guid: daff9c736e849074a982d62e55c4c4c7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4986923378310689439, guid: daff9c736e849074a982d62e55c4c4c7, type: 3}
       propertyPath: m_LocalScale.x
       value: -1
@@ -281,15 +285,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 829814278}
+    m_TransformParent: {fileID: 1633471028}
     m_Modifications:
     - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_Name
-      value: SM_Tunnel_Door_CuldeSac (34)
-      objectReference: {fileID: 0}
-    - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: SM_Door_Close
       objectReference: {fileID: 0}
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalPosition.x
@@ -330,10 +330,6 @@ PrefabInstance:
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1776799601310799477, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_CastShadows
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -576,15 +572,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 829814278}
+    m_TransformParent: {fileID: 1633471028}
     m_Modifications:
     - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_Name
-      value: SM_Tunnel_Door_CuldeSac (45)
-      objectReference: {fileID: 0}
-    - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: SM_Door_Close
       objectReference: {fileID: 0}
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalPosition.x
@@ -625,10 +617,6 @@ PrefabInstance:
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1776799601310799477, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_CastShadows
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -728,11 +716,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 829814278}
+    m_TransformParent: {fileID: 1633471028}
     m_Modifications:
     - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_Name
-      value: SM_Tunnel_Door_CuldeSac (8)
+      value: SM_Door_Close
       objectReference: {fileID: 0}
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1248,15 +1236,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 829814278}
+    m_TransformParent: {fileID: 1633471028}
     m_Modifications:
     - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_Name
-      value: SM_Tunnel_Door_CuldeSac (14)
-      objectReference: {fileID: 0}
-    - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: SM_Door_Close
       objectReference: {fileID: 0}
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1297,10 +1281,6 @@ PrefabInstance:
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1776799601310799477, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_CastShadows
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2178,6 +2158,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 829814278}
     m_Modifications:
+    - target: {fileID: 2185293703056222804, guid: daff9c736e849074a982d62e55c4c4c7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4986923378310689439, guid: daff9c736e849074a982d62e55c4c4c7, type: 3}
       propertyPath: m_LocalScale.x
       value: -1
@@ -3152,6 +3136,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 829814278}
     m_Modifications:
+    - target: {fileID: 2185293703056222804, guid: daff9c736e849074a982d62e55c4c4c7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4986923378310689439, guid: daff9c736e849074a982d62e55c4c4c7, type: 3}
       propertyPath: m_LocalScale.x
       value: -1
@@ -3224,15 +3212,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 829814278}
+    m_TransformParent: {fileID: 1633471028}
     m_Modifications:
     - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_Name
-      value: SM_Tunnel_Door_CuldeSac (81)
-      objectReference: {fileID: 0}
-    - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: SM_Door_Close
       objectReference: {fileID: 0}
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3273,10 +3257,6 @@ PrefabInstance:
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1776799601310799477, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_CastShadows
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4167,15 +4147,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 829814278}
+    m_TransformParent: {fileID: 1633471028}
     m_Modifications:
     - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_Name
-      value: SM_Tunnel_Door_CuldeSac (31)
-      objectReference: {fileID: 0}
-    - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: SM_Door_Close
       objectReference: {fileID: 0}
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4216,10 +4192,6 @@ PrefabInstance:
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1776799601310799477, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_CastShadows
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4541,15 +4513,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 829814278}
+    m_TransformParent: {fileID: 1633471028}
     m_Modifications:
     - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_Name
-      value: SM_Tunnel_Door_CuldeSac (53)
-      objectReference: {fileID: 0}
-    - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: SM_Door_Close
       objectReference: {fileID: 0}
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4591,10 +4559,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1776799601310799477, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_CastShadows
-      value: 2
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4611,15 +4575,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 829814278}
+    m_TransformParent: {fileID: 1633471028}
     m_Modifications:
     - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_Name
-      value: SM_Tunnel_Door_CuldeSac (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: SM_Door_Close
       objectReference: {fileID: 0}
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4660,10 +4620,6 @@ PrefabInstance:
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1776799601310799477, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_CastShadows
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4959,15 +4915,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 829814278}
+    m_TransformParent: {fileID: 1633471028}
     m_Modifications:
     - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_Name
-      value: SM_Tunnel_Door_CuldeSac (36)
-      objectReference: {fileID: 0}
-    - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: SM_Door_Close
       objectReference: {fileID: 0}
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5008,10 +4960,6 @@ PrefabInstance:
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1776799601310799477, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_CastShadows
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5419,15 +5367,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 829814278}
+    m_TransformParent: {fileID: 1633471028}
     m_Modifications:
     - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_Name
-      value: SM_Tunnel_Door_CuldeSac (32)
-      objectReference: {fileID: 0}
-    - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: SM_Door_Close
       objectReference: {fileID: 0}
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5468,10 +5412,6 @@ PrefabInstance:
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1776799601310799477, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_CastShadows
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6926,15 +6866,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 829814278}
+    m_TransformParent: {fileID: 1633471028}
     m_Modifications:
     - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_Name
-      value: SM_Tunnel_Door_CuldeSac (25)
-      objectReference: {fileID: 0}
-    - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: SM_Door_Close
       objectReference: {fileID: 0}
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6975,10 +6911,6 @@ PrefabInstance:
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1776799601310799477, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_CastShadows
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8073,15 +8005,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 829814278}
+    m_TransformParent: {fileID: 1633471028}
     m_Modifications:
     - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_Name
-      value: SM_Tunnel_Door_CuldeSac (13)
-      objectReference: {fileID: 0}
-    - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: SM_Door_Close
       objectReference: {fileID: 0}
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8122,10 +8050,6 @@ PrefabInstance:
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1776799601310799477, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_CastShadows
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8705,15 +8629,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 829814278}
+    m_TransformParent: {fileID: 1633471028}
     m_Modifications:
     - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_Name
-      value: SM_Tunnel_Door_CuldeSac (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: SM_Door_Close
       objectReference: {fileID: 0}
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8754,10 +8674,6 @@ PrefabInstance:
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1776799601310799477, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_CastShadows
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10129,15 +10045,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 829814278}
+    m_TransformParent: {fileID: 1633471028}
     m_Modifications:
     - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_Name
-      value: SM_Tunnel_Door_CuldeSac (40)
-      objectReference: {fileID: 0}
-    - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: SM_Door_Close
       objectReference: {fileID: 0}
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10179,10 +10091,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1776799601310799477, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_CastShadows
-      value: 2
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10199,15 +10107,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 829814278}
+    m_TransformParent: {fileID: 1633471028}
     m_Modifications:
     - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_Name
-      value: SM_Tunnel_Door_CuldeSac (33)
-      objectReference: {fileID: 0}
-    - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: SM_Door_Close
       objectReference: {fileID: 0}
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10248,10 +10152,6 @@ PrefabInstance:
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1776799601310799477, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_CastShadows
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11097,42 +10997,6 @@ Transform:
   - {fileID: 219233917}
   - {fileID: 1946202469}
   - {fileID: 511662483}
-  - {fileID: 5282210914838644656}
-  - {fileID: 752651832}
-  - {fileID: 679586619}
-  - {fileID: 1145544304}
-  - {fileID: 355694147}
-  - {fileID: 1787873099}
-  - {fileID: 30438226}
-  - {fileID: 37560352}
-  - {fileID: 1088067447}
-  - {fileID: 998439310}
-  - {fileID: 1224278128}
-  - {fileID: 254953552}
-  - {fileID: 1425201897}
-  - {fileID: 355504162}
-  - {fileID: 954254491}
-  - {fileID: 636051150}
-  - {fileID: 901019655}
-  - {fileID: 1584701382}
-  - {fileID: 96668385}
-  - {fileID: 522321281}
-  - {fileID: 1200986059}
-  - {fileID: 1629964661}
-  - {fileID: 2082266265}
-  - {fileID: 362397367}
-  - {fileID: 1796661310}
-  - {fileID: 329692749}
-  - {fileID: 411088068}
-  - {fileID: 759727250}
-  - {fileID: 14732078}
-  - {fileID: 1779184692}
-  - {fileID: 1574937450}
-  - {fileID: 2004369572}
-  - {fileID: 911874147}
-  - {fileID: 865722048}
-  - {fileID: 1072693982}
-  - {fileID: 1143766931}
   - {fileID: 2477512549531312036}
   - {fileID: 1432491903}
   - {fileID: 1345870663}
@@ -11542,15 +11406,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 829814278}
+    m_TransformParent: {fileID: 1633471028}
     m_Modifications:
     - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_Name
-      value: SM_Tunnel_Door_CuldeSac (23)
-      objectReference: {fileID: 0}
-    - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: SM_Door_Close
       objectReference: {fileID: 0}
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11591,10 +11451,6 @@ PrefabInstance:
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1776799601310799477, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_CastShadows
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12364,11 +12220,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 829814278}
+    m_TransformParent: {fileID: 1633471028}
     m_Modifications:
     - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_Name
-      value: SM_Tunnel_Door_CuldeSac (24)
+      value: SM_Door_Close
       objectReference: {fileID: 0}
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12729,15 +12585,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 829814278}
+    m_TransformParent: {fileID: 1633471028}
     m_Modifications:
     - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_Name
-      value: SM_Tunnel_Door_CuldeSac (72)
-      objectReference: {fileID: 0}
-    - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: SM_Door_Close
       objectReference: {fileID: 0}
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12778,10 +12630,6 @@ PrefabInstance:
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1776799601310799477, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_CastShadows
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13159,15 +13007,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 829814278}
+    m_TransformParent: {fileID: 1633471028}
     m_Modifications:
     - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_Name
-      value: SM_Tunnel_Door_CuldeSac (12)
-      objectReference: {fileID: 0}
-    - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: SM_Door_Close
       objectReference: {fileID: 0}
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13209,10 +13053,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1776799601310799477, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_CastShadows
-      value: 2
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13229,15 +13069,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 829814278}
+    m_TransformParent: {fileID: 1633471028}
     m_Modifications:
     - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_Name
-      value: SM_Tunnel_Door_CuldeSac (21)
-      objectReference: {fileID: 0}
-    - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: SM_Door_Close
       objectReference: {fileID: 0}
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13278,10 +13114,6 @@ PrefabInstance:
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1776799601310799477, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_CastShadows
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13881,15 +13713,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 829814278}
+    m_TransformParent: {fileID: 1633471028}
     m_Modifications:
     - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_Name
-      value: SM_Tunnel_Door_CuldeSac (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: SM_Door_Close
       objectReference: {fileID: 0}
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13931,10 +13759,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1776799601310799477, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_CastShadows
-      value: 2
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13951,15 +13775,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 829814278}
+    m_TransformParent: {fileID: 1633471028}
     m_Modifications:
     - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_Name
-      value: SM_Tunnel_Door_CuldeSac (10)
-      objectReference: {fileID: 0}
-    - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: SM_Door_Close
       objectReference: {fileID: 0}
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14000,10 +13820,6 @@ PrefabInstance:
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1776799601310799477, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_CastShadows
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14642,15 +14458,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 829814278}
+    m_TransformParent: {fileID: 1633471028}
     m_Modifications:
     - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_Name
-      value: SM_Tunnel_Door_CuldeSac (29)
-      objectReference: {fileID: 0}
-    - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: SM_Door_Close
       objectReference: {fileID: 0}
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14691,10 +14503,6 @@ PrefabInstance:
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1776799601310799477, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_CastShadows
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14794,15 +14602,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 829814278}
+    m_TransformParent: {fileID: 1633471028}
     m_Modifications:
     - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_Name
-      value: SM_Tunnel_Door_CuldeSac (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: SM_Door_Close
       objectReference: {fileID: 0}
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14843,10 +14647,6 @@ PrefabInstance:
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1776799601310799477, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_CastShadows
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15421,15 +15221,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 829814278}
+    m_TransformParent: {fileID: 1633471028}
     m_Modifications:
     - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_Name
-      value: SM_Tunnel_Door_CuldeSac (27)
-      objectReference: {fileID: 0}
-    - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: SM_Door_Close
       objectReference: {fileID: 0}
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15470,10 +15266,6 @@ PrefabInstance:
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1776799601310799477, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_CastShadows
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15979,15 +15771,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 829814278}
+    m_TransformParent: {fileID: 1633471028}
     m_Modifications:
     - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_Name
-      value: SM_Tunnel_Door_CuldeSac (80)
-      objectReference: {fileID: 0}
-    - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: SM_Door_Close
       objectReference: {fileID: 0}
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16028,10 +15816,6 @@ PrefabInstance:
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1776799601310799477, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_CastShadows
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16207,6 +15991,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 829814278}
     m_Modifications:
+    - target: {fileID: 2185293703056222804, guid: daff9c736e849074a982d62e55c4c4c7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4986923378310689439, guid: daff9c736e849074a982d62e55c4c4c7, type: 3}
       propertyPath: m_LocalScale.x
       value: -1
@@ -17940,6 +17728,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 829814278}
     m_Modifications:
+    - target: {fileID: 2185293703056222804, guid: daff9c736e849074a982d62e55c4c4c7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4986923378310689439, guid: daff9c736e849074a982d62e55c4c4c7, type: 3}
       propertyPath: m_LocalScale.x
       value: -1
@@ -18902,15 +18694,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 829814278}
+    m_TransformParent: {fileID: 1633471028}
     m_Modifications:
     - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_Name
-      value: SM_Tunnel_Door_CuldeSac (22)
-      objectReference: {fileID: 0}
-    - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: SM_Door_Close
       objectReference: {fileID: 0}
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18952,10 +18740,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1776799601310799477, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_CastShadows
-      value: 2
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18974,6 +18758,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 829814278}
     m_Modifications:
+    - target: {fileID: 2185293703056222804, guid: daff9c736e849074a982d62e55c4c4c7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4986923378310689439, guid: daff9c736e849074a982d62e55c4c4c7, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -19514,15 +19302,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 829814278}
+    m_TransformParent: {fileID: 1633471028}
     m_Modifications:
     - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_Name
-      value: SM_Tunnel_Door_CuldeSac (69)
-      objectReference: {fileID: 0}
-    - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: SM_Door_Close
       objectReference: {fileID: 0}
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19563,10 +19347,6 @@ PrefabInstance:
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1776799601310799477, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_CastShadows
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19674,15 +19454,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 829814278}
+    m_TransformParent: {fileID: 1633471028}
     m_Modifications:
     - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_Name
-      value: SM_Tunnel_Door_CuldeSac (26)
-      objectReference: {fileID: 0}
-    - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: SM_Door_Close
       objectReference: {fileID: 0}
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19723,10 +19499,6 @@ PrefabInstance:
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1776799601310799477, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_CastShadows
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19878,6 +19650,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 829814278}
     m_Modifications:
+    - target: {fileID: 2185293703056222804, guid: daff9c736e849074a982d62e55c4c4c7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4986923378310689439, guid: daff9c736e849074a982d62e55c4c4c7, type: 3}
       propertyPath: m_LocalScale.x
       value: -1
@@ -20177,15 +19953,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 829814278}
+    m_TransformParent: {fileID: 1633471028}
     m_Modifications:
     - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_Name
-      value: SM_Tunnel_Door_CuldeSac (28)
-      objectReference: {fileID: 0}
-    - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: SM_Door_Close
       objectReference: {fileID: 0}
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20226,10 +19998,6 @@ PrefabInstance:
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1776799601310799477, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_CastShadows
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20446,6 +20214,96 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1633471026
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1633471028}
+  - component: {fileID: 1633471027}
+  m_Layer: 0
+  m_Name: SM_Doors
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 4445790c252970d45ae069bd9011b484, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1633471027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1633471026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1816795d2838f643acc6f6f815cfff9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HierarchyDesigner.HierarchyDesignerFolder
+  flattenFolder: 1
+  moveChildrenToHierarchyRoot: 1
+  flattenEvent: 1
+  OnFlattenEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  OnFolderDestroy:
+    m_PersistentCalls:
+      m_Calls: []
+  notes: 
+--- !u!4 &1633471028
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1633471026}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5282210914838644656}
+  - {fileID: 752651832}
+  - {fileID: 679586619}
+  - {fileID: 1145544304}
+  - {fileID: 355694147}
+  - {fileID: 1787873099}
+  - {fileID: 30438226}
+  - {fileID: 37560352}
+  - {fileID: 1088067447}
+  - {fileID: 998439310}
+  - {fileID: 1224278128}
+  - {fileID: 254953552}
+  - {fileID: 1425201897}
+  - {fileID: 355504162}
+  - {fileID: 954254491}
+  - {fileID: 636051150}
+  - {fileID: 901019655}
+  - {fileID: 1584701382}
+  - {fileID: 96668385}
+  - {fileID: 522321281}
+  - {fileID: 1200986059}
+  - {fileID: 1629964661}
+  - {fileID: 2082266265}
+  - {fileID: 362397367}
+  - {fileID: 1796661310}
+  - {fileID: 329692749}
+  - {fileID: 411088068}
+  - {fileID: 759727250}
+  - {fileID: 14732078}
+  - {fileID: 1779184692}
+  - {fileID: 1574937450}
+  - {fileID: 2004369572}
+  - {fileID: 911874147}
+  - {fileID: 865722048}
+  - {fileID: 1072693982}
+  - {fileID: 1143766931}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1635157329
@@ -21816,15 +21674,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 829814278}
+    m_TransformParent: {fileID: 1633471028}
     m_Modifications:
     - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_Name
-      value: SM_Tunnel_Door_CuldeSac (35)
-      objectReference: {fileID: 0}
-    - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: SM_Door_Close
       objectReference: {fileID: 0}
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21865,10 +21719,6 @@ PrefabInstance:
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1776799601310799477, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_CastShadows
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21972,15 +21822,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 829814278}
+    m_TransformParent: {fileID: 1633471028}
     m_Modifications:
     - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_Name
-      value: SM_Tunnel_Door_CuldeSac (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: SM_Door_Close
       objectReference: {fileID: 0}
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22022,10 +21868,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1776799601310799477, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_CastShadows
-      value: 2
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22042,15 +21884,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 829814278}
+    m_TransformParent: {fileID: 1633471028}
     m_Modifications:
     - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_Name
-      value: SM_Tunnel_Door_CuldeSac (37)
-      objectReference: {fileID: 0}
-    - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: SM_Door_Close
       objectReference: {fileID: 0}
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22092,10 +21930,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1776799601310799477, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_CastShadows
-      value: 2
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22106,6 +21940,119 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
   m_PrefabInstance: {fileID: 1796661309}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1798155094
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1798155098}
+  - component: {fileID: 1798155097}
+  - component: {fileID: 1798155096}
+  - component: {fileID: 1798155095}
+  m_Layer: 0
+  m_Name: Ground
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!64 &1798155095
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1798155094}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &1798155096
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1798155094}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 7a576655fb29720449fee65952b47390, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 2
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1798155097
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1798155094}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1798155098
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1798155094}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 20, y: 20, z: 20}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1799701308
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24637,15 +24584,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 829814278}
+    m_TransformParent: {fileID: 1633471028}
     m_Modifications:
     - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_Name
-      value: SM_Tunnel_Door_CuldeSac (16)
-      objectReference: {fileID: 0}
-    - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: SM_Door_Close
       objectReference: {fileID: 0}
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24686,10 +24629,6 @@ PrefabInstance:
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1776799601310799477, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_CastShadows
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25453,15 +25392,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 829814278}
+    m_TransformParent: {fileID: 1633471028}
     m_Modifications:
     - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_Name
-      value: SM_Tunnel_Door_CuldeSac (30)
-      objectReference: {fileID: 0}
-    - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: SM_Door_Close
       objectReference: {fileID: 0}
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25502,10 +25437,6 @@ PrefabInstance:
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1776799601310799477, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_CastShadows
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -26416,6 +26347,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 829814278}
     m_Modifications:
+    - target: {fileID: 3378561882199786556, guid: 7e0e7892227ab75459391f7cb7b17381, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3678909664055494922, guid: 7e0e7892227ab75459391f7cb7b17381, type: 3}
       propertyPath: m_LocalPosition.x
       value: 81.85612
@@ -26459,6 +26394,10 @@ PrefabInstance:
     - target: {fileID: 4054871845025338288, guid: 7e0e7892227ab75459391f7cb7b17381, type: 3}
       propertyPath: m_Name
       value: SM_Tunnel_Lader
+      objectReference: {fileID: 0}
+    - target: {fileID: 4054871845025338288, guid: 7e0e7892227ab75459391f7cb7b17381, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -26634,6 +26573,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 829814278}
     m_Modifications:
+    - target: {fileID: 2185293703056222804, guid: daff9c736e849074a982d62e55c4c4c7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4986923378310689439, guid: daff9c736e849074a982d62e55c4c4c7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.584911
@@ -26834,15 +26777,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 829814278}
+    m_TransformParent: {fileID: 1633471028}
     m_Modifications:
     - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_Name
-      value: SM_Tunnel_Door_CuldeSac
-      objectReference: {fileID: 0}
-    - target: {fileID: 263611910962821024, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: SM_Door_Close
       objectReference: {fileID: 0}
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26883,10 +26822,6 @@ PrefabInstance:
     - target: {fileID: 640453490781482266, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1776799601310799477, guid: 7a852c1e1cb49d844aca1a2703091e28, type: 3}
-      propertyPath: m_CastShadows
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27066,6 +27001,7 @@ SceneRoots:
   - {fileID: 1160234427}
   - {fileID: 910830280}
   - {fileID: 1605153864}
+  - {fileID: 1798155098}
   - {fileID: 1632774249}
   - {fileID: 203844589}
   - {fileID: 1182891855}
@@ -27073,3 +27009,4 @@ SceneRoots:
   - {fileID: 1139204614}
   - {fileID: 327195819}
   - {fileID: 829814278}
+  - {fileID: 1633471028}
