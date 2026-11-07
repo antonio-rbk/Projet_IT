@@ -1192,7 +1192,7 @@ GameObject:
   - component: {fileID: 247110516}
   - component: {fileID: 247110519}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Next_Scene_Hitbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2440,6 +2440,10 @@ PrefabInstance:
     - target: {fileID: 2407716586024474287, guid: 5b91f998bd87433498872d9941dbea29, type: 3}
       propertyPath: onSuccess.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 1820011227}
+    - target: {fileID: 2407716586024474287, guid: 5b91f998bd87433498872d9941dbea29, type: 3}
+      propertyPath: onSuccess.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ToggleMove
       objectReference: {fileID: 0}
     - target: {fileID: 3856112985947418954, guid: 5b91f998bd87433498872d9941dbea29, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2551,6 +2555,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8619e7afca22dc44eb401f1ae01aa24c, type: 3}
+--- !u!114 &511108802 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5006922354600537238, guid: 8619e7afca22dc44eb401f1ae01aa24c, type: 3}
+  m_PrefabInstance: {fileID: 511108801}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92c84072e0e56584db4edd36b0c010cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SimpleMover
 --- !u!1001 &511511648
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4653,7 +4668,7 @@ PrefabInstance:
     - target: {fileID: 2407716586024474287, guid: 5b91f998bd87433498872d9941dbea29, type: 3}
       propertyPath: onSuccess.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 511108802}
     - target: {fileID: 2407716586024474287, guid: 5b91f998bd87433498872d9941dbea29, type: 3}
       propertyPath: onSuccess.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ToggleMove
@@ -5866,7 +5881,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!64 &1350937334
 MeshCollider:
@@ -6291,6 +6306,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70f3584c710acc6478cdd686d4e559d0, type: 3}
+--- !u!114 &1431767369 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3449646442953575021, guid: 70f3584c710acc6478cdd686d4e559d0, type: 3}
+  m_PrefabInstance: {fileID: 1431767368}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92c84072e0e56584db4edd36b0c010cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SimpleMover
 --- !u!1001 &1470773910
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7839,7 +7865,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!95 &1747687534
 Animator:
@@ -8318,6 +8344,17 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 232310196}
   m_SourcePrefab: {fileID: 100100000, guid: 7bb3280c76f2b1c4090f40107b035382, type: 3}
+--- !u!114 &1820011227 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4997517141705413289, guid: c2c163fdaa84c034c92f3433ae39818d, type: 3}
+  m_PrefabInstance: {fileID: 1797692319}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92c84072e0e56584db4edd36b0c010cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SimpleMover
 --- !u!1001 &1821848277
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8869,6 +8906,10 @@ PrefabInstance:
     - target: {fileID: 2537838126603468531, guid: 191e05a482252d74a9123d87e38e9539, type: 3}
       propertyPath: onSuccess.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 4897662984776125982}
+    - target: {fileID: 2537838126603468531, guid: 191e05a482252d74a9123d87e38e9539, type: 3}
+      propertyPath: onSuccess.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ToggleMove
       objectReference: {fileID: 0}
     - target: {fileID: 4661803862824368535, guid: 191e05a482252d74a9123d87e38e9539, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10566,6 +10607,10 @@ PrefabInstance:
     - target: {fileID: 2407716586024474287, guid: 5b91f998bd87433498872d9941dbea29, type: 3}
       propertyPath: onSuccess.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 1431767369}
+    - target: {fileID: 2407716586024474287, guid: 5b91f998bd87433498872d9941dbea29, type: 3}
+      propertyPath: onSuccess.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ToggleMove
       objectReference: {fileID: 0}
     - target: {fileID: 3856112985947418954, guid: 5b91f998bd87433498872d9941dbea29, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10755,6 +10800,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86d0777f123f95642af7cdcec2c62e70, type: 3}
+--- !u!114 &4897662984776125982 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1507128390719022300, guid: 86d0777f123f95642af7cdcec2c62e70, type: 3}
+  m_PrefabInstance: {fileID: 4897662984776125981}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92c84072e0e56584db4edd36b0c010cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SimpleMover
 --- !u!1001 &5955722049256348425
 PrefabInstance:
   m_ObjectHideFlags: 0
