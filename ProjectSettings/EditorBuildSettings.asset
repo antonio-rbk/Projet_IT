@@ -23,7 +23,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/EndGameFix.unity
     guid: 11d2122d26873b148865620c113081d3
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/test.unity
     guid: 30cd64e06107ca945a45bd036bf8e1ae
   m_configObjects:
