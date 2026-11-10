@@ -1,77 +1,112 @@
 using UnityEngine;
 using System;
+using TMPro;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using Image = UnityEngine.UI.Image;
 
 public class PlayerHealth : MonoBehaviour
 {
     [Header("Infos Joueur")]
     // vie max du joueur. (idéalement 100)
     public int health;
-    // Ui de fermeture des yeux en fonction des dégats.
+    [Header("UI des dégats")]
     public Image darkenScreenUI;
-    // Les 3 états de la vie du joueur (je les utilise que dans UpdateTransparency pour l'ui pour l'instant)
-    private bool _fullLife;
-    private bool _midLife;
-    private bool _quarterLife;
+    public TextMeshProUGUI buttonRespawn;
+    public Sprite imageDeDegats1;
+    public Sprite imageDeDegats2;
+    public Sprite imageDeDegats3;
+    private Color color;
+    public TextMeshProUGUI lifeText;
+    // Ui de fermeture des yeux en fonction des dégats.
     
+    private static int _tempHealth;
+    private static int _halfLife;
+    private static int _quarterLife;
+    private static bool _isDead;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        _isDead = false;
+        darkenScreenUI.enabled = true;
+        _tempHealth = health;
+        lifeText.text = _tempHealth.ToString();
+        _halfLife = _tempHealth / 2;
+        _quarterLife = _tempHealth / 4;
         Console.WriteLine("Vie du joueur: " + health);
+        Debug.Log("Start");
     }
-
     void Update()
     {
-        if (health <= 0)
-        {
+        if (_tempHealth <= 0 && _isDead == false)
+        { 
             PlayerDeath();
-            
         }
+        Debug.Log("Update");
+        lifeText.text = _tempHealth.ToString();
         UpdateTransparency();
     }
-    
+
     public void PlayerHit(int damage = 1)
     {
         {
-            health -= damage;
-            Console.WriteLine("joueur touché! nouvelle vie: " + health);
-            
+            _tempHealth -= damage;
+            Debug.Log("joueur touché! nouvelle vie: " + _tempHealth);
         }
     }
 
     private void UpdateTransparency()
     {
-        if (health > 50 && _fullLife == false)
+        Debug.Log("Transparence");
+        var colorUI = darkenScreenUI.GetComponent<Image>().color;
+        if (_tempHealth > _halfLife)
         {
-            _fullLife = true;
-            _midLife = false;
-            _quarterLife = false;
-            darkenScreenUI.GetComponent<Image>().color.a = 50;
-            Console.WriteLine("le joueur a toute de sa vie");
+            colorUI = new Color(255, 0, 0, 0f);
+            darkenScreenUI.color =  colorUI;
+            darkenScreenUI.GetComponent<Image>().sprite = imageDeDegats1;
+            buttonRespawn.enabled = false;
+            print("le joueur a toute de sa vie");
         }
-        else if (50 >= health && health >= 25 && _midLife == false)
+        else if (_tempHealth <= _halfLife && _tempHealth >= _quarterLife)
         {
-            if (_midLife == false){
-            _fullLife = false;
-            _midLife = true;
-            _quarterLife = false;
-            darkenScreenUI.GetComponent<Image>().color.a = 150;
-            Console.WriteLine("le joueur a la moitié de sa vie");}
+            colorUI = new Color(255, 0, 0, 0.2f);
+            darkenScreenUI.color =  colorUI;
+            darkenScreenUI.GetComponent<Image>().sprite = imageDeDegats1;
+            buttonRespawn.enabled = false;
+            print("le joueur a la moitié de sa vie");
         }
-        else if (health < 25 && _quarterLife == false)
+        else if (_tempHealth < _quarterLife && _tempHealth > 0)
         {
-            _fullLife = false;
-            _midLife = false;
-            _quarterLife = true;
-            darkenScreenUI.GetComponent<Image>().color.a = 255;
-            Console.WriteLine("le joueur a un quart de sa vie");
+            colorUI = new Color(255, 0, 0, 0.5f);
+            darkenScreenUI.color =  colorUI;
+            darkenScreenUI.GetComponent<Image>().sprite = imageDeDegats2;
+            buttonRespawn.enabled = false;
+            print("le joueur a un quart de sa vie");
+        }
+        else if (_tempHealth <= 0)
+        {
+            colorUI = new Color(255, 0, 0, 1);
+            darkenScreenUI.color =  colorUI;
+            darkenScreenUI.GetComponent<Image>().sprite = imageDeDegats3;
+            print("la couleur de la mort");
         }
     }
     private void PlayerDeath()
     {
-        {
-            Console.WriteLine("joueur est mort");
-        }
+        _isDead = true;
+        buttonRespawn.enabled = true;
+        Debug.Log("Mort");
     }
-    // Update is called once per frame
+
+    public void Relaunch()
+    {
+        Start();
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void ButtonPressed()
+    {
+        buttonRespawn.GetComponent<Button>().onClick.Invoke();
+        Debug.Log("ButtonPressed");
+    }
 }
