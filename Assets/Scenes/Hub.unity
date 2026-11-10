@@ -4990,15 +4990,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6042493528372333598, guid: 8af6db84c491f504995fe0f3ba01166f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -65.299
+      value: 24.28
       objectReference: {fileID: 0}
     - target: {fileID: 6042493528372333598, guid: 8af6db84c491f504995fe0f3ba01166f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 27.25
+      value: 3.59
       objectReference: {fileID: 0}
     - target: {fileID: 6042493528372333598, guid: 8af6db84c491f504995fe0f3ba01166f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -11.749
+      value: 21.66
       objectReference: {fileID: 0}
     - target: {fileID: 6042493528372333598, guid: 8af6db84c491f504995fe0f3ba01166f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -11593,86 +11593,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1371033394619554166, guid: f302772be5af05649ab349eadfb6a0d8, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: ccc0dca0b271a8647a38337e9fc68748, type: 2}
-    - target: {fileID: 1479859406884129859, guid: f302772be5af05649ab349eadfb6a0d8, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1479859406884129859, guid: f302772be5af05649ab349eadfb6a0d8, type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2777595591026260333, guid: f302772be5af05649ab349eadfb6a0d8, type: 3}
-      propertyPath: m_LinearDamping
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 3918530990235808694, guid: f302772be5af05649ab349eadfb6a0d8, type: 3}
-      propertyPath: m_TagString
-      value: Interactable
-      objectReference: {fileID: 0}
-    - target: {fileID: 4093885813481891438, guid: f302772be5af05649ab349eadfb6a0d8, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 4243925956626795436, guid: f302772be5af05649ab349eadfb6a0d8, type: 3}
-      propertyPath: completeEvent.m_PersistentCalls.m_Calls.Array.size
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4243925956626795436, guid: f302772be5af05649ab349eadfb6a0d8, type: 3}
-      propertyPath: completeEvent.m_PersistentCalls.m_Calls.Array.data[4].m_Mode
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4243925956626795436, guid: f302772be5af05649ab349eadfb6a0d8, type: 3}
-      propertyPath: completeEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Target
-      value: 
-      objectReference: {fileID: 946753638}
-    - target: {fileID: 4243925956626795436, guid: f302772be5af05649ab349eadfb6a0d8, type: 3}
-      propertyPath: completeEvent.m_PersistentCalls.m_Calls.Array.data[4].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4243925956626795436, guid: f302772be5af05649ab349eadfb6a0d8, type: 3}
-      propertyPath: completeEvent.m_PersistentCalls.m_Calls.Array.data[4].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4243925956626795436, guid: f302772be5af05649ab349eadfb6a0d8, type: 3}
-      propertyPath: completeEvent.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
-      value: set_isTrigger
-      objectReference: {fileID: 0}
-    - target: {fileID: 4243925956626795436, guid: f302772be5af05649ab349eadfb6a0d8, type: 3}
-      propertyPath: completeEvent.m_PersistentCalls.m_Calls.Array.data[4].m_MethodName
-      value: set_linearDamping
-      objectReference: {fileID: 0}
-    - target: {fileID: 4243925956626795436, guid: f302772be5af05649ab349eadfb6a0d8, type: 3}
-      propertyPath: completeEvent.m_PersistentCalls.m_Calls.Array.data[4].m_TargetAssemblyTypeName
-      value: UnityEngine.Rigidbody, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 4243925956626795436, guid: f302772be5af05649ab349eadfb6a0d8, type: 3}
-      propertyPath: completeEvent.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_BoolArgument
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4243925956626795436, guid: f302772be5af05649ab349eadfb6a0d8, type: 3}
-      propertyPath: completeEvent.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 6589434866551116405, guid: f302772be5af05649ab349eadfb6a0d8, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 7040127952566751592, guid: f302772be5af05649ab349eadfb6a0d8, type: 3}
       propertyPath: m_Name
       value: LightDrama
       objectReference: {fileID: 0}
-    - target: {fileID: 8568105935725030376, guid: f302772be5af05649ab349eadfb6a0d8, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 8734731203482847642, guid: f302772be5af05649ab349eadfb6a0d8, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: ccc0dca0b271a8647a38337e9fc68748, type: 2}
     - target: {fileID: 9188645363585517100, guid: f302772be5af05649ab349eadfb6a0d8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 29.821655
