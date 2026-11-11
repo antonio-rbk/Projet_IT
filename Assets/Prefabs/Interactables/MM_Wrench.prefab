@@ -10,15 +10,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 3344701616cb6d34eb54f00e7736f000, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.504
+      value: -34.87411
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3344701616cb6d34eb54f00e7736f000, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.01015
+      value: 19.100754
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3344701616cb6d34eb54f00e7736f000, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.413
+      value: -22.289303
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3344701616cb6d34eb54f00e7736f000, type: 3}
       propertyPath: m_LocalRotation.w
@@ -83,9 +83,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 3344701616cb6d34eb54f00e7736f000, type: 3}
       insertIndex: -1
       addedObject: {fileID: 283687292215898996}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 3344701616cb6d34eb54f00e7736f000, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 5846714575680501122}
   m_SourcePrefab: {fileID: 100100000, guid: 3344701616cb6d34eb54f00e7736f000, type: 3}
 --- !u!1 &8441014027176430024 stripped
 GameObject:
@@ -202,39 +199,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ItemTag
   itemID: Metal
---- !u!114 &5846714575680501122
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8441014027176430024}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e102bec69b471543a70361229f51356, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InteractableObject
-  isGrabbable: 1
-  isKickable: 1
-  isThrowable: 1
-  followSpeed: 25
-  rotationSpeed: 15
-  holdDrag: 10
-  defaultLinearDamping: 1.5
-  defaultAngularDamping: 1
-  safetyMode: 2
-  maxDistance: 5
-  kickForce: 10
-  upwardForce: 2
-  onGrab:
-    m_PersistentCalls:
-      m_Calls: []
-  onDrop:
-    m_PersistentCalls:
-      m_Calls: []
-  onKick:
-    m_PersistentCalls:
-      m_Calls: []
-  onThrow:
-    m_PersistentCalls:
-      m_Calls: []
