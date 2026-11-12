@@ -9,16 +9,28 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 3344701616cb6d34eb54f00e7736f000, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.6646572
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3344701616cb6d34eb54f00e7736f000, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.6646572
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3344701616cb6d34eb54f00e7736f000, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.6646572
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3344701616cb6d34eb54f00e7736f000, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -34.87411
+      value: -0.83807
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3344701616cb6d34eb54f00e7736f000, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 19.100754
+      value: 19.297
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3344701616cb6d34eb54f00e7736f000, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -22.289303
+      value: -10.023
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3344701616cb6d34eb54f00e7736f000, type: 3}
       propertyPath: m_LocalRotation.w
@@ -83,6 +95,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 3344701616cb6d34eb54f00e7736f000, type: 3}
       insertIndex: -1
       addedObject: {fileID: 283687292215898996}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 3344701616cb6d34eb54f00e7736f000, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4057793524870914383}
   m_SourcePrefab: {fileID: 100100000, guid: 3344701616cb6d34eb54f00e7736f000, type: 3}
 --- !u!1 &8441014027176430024 stripped
 GameObject:
@@ -187,6 +202,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemTag
   itemID: Wrench
 --- !u!114 &283687292215898996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8441014027176430024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07971adbe0265104b9a2836523fd8fb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ItemTag
+  itemID: Metal
+--- !u!114 &4057793524870914383
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
