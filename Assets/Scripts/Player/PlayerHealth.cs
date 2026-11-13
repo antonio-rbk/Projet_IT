@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 using Image = UnityEngine.UI.Image;
 using UnityEngine.InputSystem;
 using StarterAssets;
-using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
@@ -40,13 +39,13 @@ public class PlayerHealth : MonoBehaviour
 
     [Header("Canvas d'indice")]
     public GridLayoutGroup uiIndice;
-    public Canvas indiceE;
-    public Canvas indiceX;
-    public Canvas indiceI;
-    public Canvas indiceT;
+    public Image indiceE;
+    public Image indiceX;
+    public Image indiceI;
+    public Image indiceT;
     // Variables pour être sûr que l'input est toggle ou non etc.
-    private bool _boutonIndiceOn;
-    private bool _toucheIndicePressed;
+    private bool _uiClueEnabled;
+    private bool _toucheCluePressed;
     
     //Tout ça je l'ai implémenté au cas où c'est nécessaire pour les inputs.
     [Header("Input System (New Input System)")]
@@ -58,14 +57,15 @@ public class PlayerHealth : MonoBehaviour
     private StarterAssetsInputs _input;
     private InputAction _respawn;
     private InputAction _clue;
-    
+
+    private bool _startDone = false;
     //-
      // Dans le Start je définit les fonctions par défaut et j'applique le global volume et l'état par défaut.
     void Start()
     {
-        uiIndice.enabled = false;
+        _toucheCluePressed = false;
+        uiIndice.GetComponent<CanvasGroup>().alpha = 0;
         buttonRespawn.GetComponent<TextMeshProUGUI>().enabled = false;
-        _toucheIndicePressed = false;
         if (_playerInputComponent == null)
             _playerInputComponent = FindFirstObjectByType<PlayerInput>();
 
@@ -87,6 +87,7 @@ public class PlayerHealth : MonoBehaviour
         lifeText.text = _tempHealth.ToString();
         _halfLife = _tempHealth / 2;
         _quarterLife = _tempHealth / 4;
+        _startDone = true;
         ApplyGlobalVolume(defaultGlobalVolumeProfile);
         ApplyState("default");
         Console.WriteLine("Vie du joueur: " + health);
@@ -98,6 +99,10 @@ public class PlayerHealth : MonoBehaviour
     // J'ai aussi essayé de mettre une ligne pour vérifier si la touche de respawn était pressée.
     void Update()
     {
+        if(_startDone == false)
+        {
+            Start();
+        }
         if (_tempHealth <= 0 && _isDead == false)
         {
             
@@ -117,11 +122,13 @@ public class PlayerHealth : MonoBehaviour
         if (_clue.IsPressed())
         {
                 ToggleClue();
-                _toucheIndicePressed = true;
+                _toucheCluePressed = true;
+                Debug.Log("touche est pressée");
         }
         else
         {
-            _toucheIndicePressed = false;
+            _toucheCluePressed = false;
+            Debug.Log("touche est plus pressée");
         }
     }
 
@@ -222,21 +229,20 @@ public class PlayerHealth : MonoBehaviour
     // Fait apparaitre le texte "Respawn" à l'écran.
     public void ToggleClue()
     {
-        if (_boutonIndiceOn && _toucheIndicePressed == false)
+        if (_uiClueEnabled  && _toucheCluePressed == false)
         {
-            uiIndice.enabled = true;
-            _boutonIndiceOn = false;
+            uiIndice.GetComponent<CanvasGroup>().alpha = 1;
+            _uiClueEnabled = false;
             Debug.Log("indice pas visible");
         }
-        else if (_boutonIndiceOn == false && _toucheIndicePressed == false)
+        else if (_uiClueEnabled == false && _toucheCluePressed == false)
         {
-            
-            uiIndice.enabled = false;
-            _boutonIndiceOn = true;
+            uiIndice.GetComponent<CanvasGroup>().alpha = 0;
+            _uiClueEnabled = true;
             Debug.Log("indice visible");
         }
     }
-
+    
     public void CollectClue(string clue)
     {
         if (clue == "E")
