@@ -226,7 +226,7 @@ MonoBehaviour:
   imageDeDegats2: {fileID: 21300000, guid: f5cf64e3018973c44954eb8a9c27bb8e, type: 3}
   imageDeDegats3: {fileID: 21300000, guid: fbd858de70139ef48b1977da50e310d6, type: 3}
   lifeText: {fileID: 6231596726584267458}
-  defaultGlobalVolumeProfile: {fileID: 11400000, guid: c39df3a74fc5bf545991f82a1af94ba3, type: 2}
+  defaultGlobalVolumeProfile: {fileID: 11400000, guid: df756ca7b341ede41adf63bf4c34849a, type: 2}
   buttonRespawn: {fileID: 1166904502984652781}
   uiIndice: {fileID: 8822661757154565036}
   indiceE: {fileID: 4577706363187984523}
