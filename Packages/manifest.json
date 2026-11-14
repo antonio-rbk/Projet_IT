@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "com.cqf.urpvolumetricfog": "file:C:/Users/oxige/Downloads/Unity-URP-Volumetric-Light-main/Unity-URP-Volumetric-Light-main",
+    "com.unity.2d.sprite": "1.0.0",
     "com.unity.cinemachine": "3.1.7",
     "com.unity.inputsystem": "1.19.0",
     "com.unity.multiplayer.center": "1.0.1",
