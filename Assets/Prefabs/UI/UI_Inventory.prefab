@@ -506,7 +506,6 @@ GameObject:
   - component: {fileID: 3999953084566567555}
   - component: {fileID: 670844842492433300}
   - component: {fileID: 6524509807779957674}
-  - component: {fileID: 7022512355458867406}
   m_Layer: 5
   m_Name: SlotUI (1)
   m_TagString: Untagged
@@ -572,19 +571,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &7022512355458867406
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4570774679973377966}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8256bbcf537c71d4983f2f5d5c1dcb28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InventorySlotUI
-  iconImage: {fileID: 4597668208495777340}
 --- !u!1 &4712536028932720455
 GameObject:
   m_ObjectHideFlags: 0
@@ -1001,7 +987,6 @@ GameObject:
   - component: {fileID: 5440272058784863318}
   - component: {fileID: 198537644996729406}
   - component: {fileID: 1877849738640423184}
-  - component: {fileID: 6752819406516905882}
   m_Layer: 5
   m_Name: SlotUI (2)
   m_TagString: Untagged
@@ -1067,19 +1052,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &6752819406516905882
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6356944248461631270}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8256bbcf537c71d4983f2f5d5c1dcb28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InventorySlotUI
-  iconImage: {fileID: 7452296634200608115}
 --- !u!1 &6469079625962215879
 GameObject:
   m_ObjectHideFlags: 0
@@ -1277,7 +1249,6 @@ GameObject:
   - component: {fileID: 1412781980099782626}
   - component: {fileID: 1327233380629996457}
   - component: {fileID: 36347252096914151}
-  - component: {fileID: 5895934239628022219}
   m_Layer: 5
   m_Name: SlotUI
   m_TagString: Untagged
@@ -1343,19 +1314,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &5895934239628022219
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8783697587720640694}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8256bbcf537c71d4983f2f5d5c1dcb28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InventorySlotUI
-  iconImage: {fileID: 77628838159233026}
 --- !u!1 &8786124197748182736
 GameObject:
   m_ObjectHideFlags: 0
@@ -1368,7 +1326,6 @@ GameObject:
   - component: {fileID: 4855213099775586341}
   - component: {fileID: 881676727941169383}
   - component: {fileID: 5005190317814460864}
-  - component: {fileID: 2314320902670716101}
   - component: {fileID: 1648594755998699295}
   m_Layer: 5
   m_Name: InventoryGrid
@@ -1466,31 +1423,6 @@ MonoBehaviour:
   m_Spacing: {x: 20, y: 20}
   m_Constraint: 0
   m_ConstraintCount: 2
---- !u!114 &2314320902670716101
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8786124197748182736}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 574944ecb90de3346b9625168b82c005, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InventoryUI
-  playerController: {fileID: 0}
-  _input: {fileID: 0}
-  canvasGroup: {fileID: 1648594755998699295}
-  inventoryPanel: {fileID: 8786124197748182736}
-  slots:
-  - {fileID: 5895934239628022219}
-  - {fileID: 7022512355458867406}
-  - {fileID: 6752819406516905882}
-  - {fileID: 7655552060871443826}
-  - {fileID: 9103183705193254838}
-  - {fileID: 6360849341095059601}
-  - {fileID: 6667640516784088811}
-  - {fileID: 5417353178131127066}
 --- !u!225 &1648594755998699295
 CanvasGroup:
   m_ObjectHideFlags: 0

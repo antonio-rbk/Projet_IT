@@ -16,6 +16,7 @@ namespace StarterAssets
 		public bool action;
 		public bool inventory;
 		public bool torch;
+		public bool respawn;
 
 		[Header("UI Input Values")]
 		public bool click; // Variable d'état pour l'UI
@@ -46,6 +47,10 @@ namespace StarterAssets
 			JumpInput(value.isPressed);
 		}
 
+		public void OnRespawn(InputValue value)
+		{
+			RespawnInput(value.isPressed);
+		}
 		public void OnSprint(InputValue value)
 		{
 			SprintInput(value.isPressed);
@@ -92,6 +97,10 @@ namespace StarterAssets
 			jump = newJumpState;
 		}
 
+		public void RespawnInput(bool newRespawnState)
+		{
+			respawn = newRespawnState;
+		}
 		public void SprintInput(bool newSprintState)
 		{
 			sprint = newSprintState;
