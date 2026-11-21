@@ -1,9 +1,16 @@
 {
   "dependencies": {
     "com.cqf.urpvolumetricfog": {
-      "version": "file:C:/Users/oxige/Downloads/Unity-URP-Volumetric-Light-main/Unity-URP-Volumetric-Light-main",
+      "version": "https://github.com/CristianQiu/Unity-URP-Volumetric-Light.git",
       "depth": 0,
-      "source": "local",
+      "source": "git",
+      "dependencies": {},
+      "hash": "354ebc5b6ed3c2c40dc9797c813b56d5da213c4e"
+    },
+    "com.unity.2d.sprite": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
       "dependencies": {}
     },
     "com.unity.burst": {
@@ -170,6 +177,15 @@
         "com.unity.modules.ui": "1.0.0",
         "com.unity.modules.imgui": "1.0.0"
       }
+    },
+    "moe.meryuhi.effects.fog": {
+      "version": "https://github.com/meryuhi/URPFog.git?path=Packages/Fog",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.render-pipelines.universal": "17.0.0"
+      },
+      "hash": "f7d4096abc0d3e9b4ae5f9584acc4376573f412a"
     },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
