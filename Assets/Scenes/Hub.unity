@@ -27509,7 +27509,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TagChecker
   requiredItemID: Metal
-  snapPoint: {fileID: 0}
+  snapPoint: {fileID: 6266049702009793121}
   onKeyInserted:
     m_PersistentCalls:
       m_Calls:
