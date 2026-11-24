@@ -1,11 +1,10 @@
 {
   "dependencies": {
     "com.cqf.urpvolumetricfog": {
-      "version": "https://github.com/CristianQiu/Unity-URP-Volumetric-Light.git",
+      "version": "file:C:/Users/oxige/Downloads/Unity-URP-Volumetric-Light-main/Unity-URP-Volumetric-Light-main",
       "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "354ebc5b6ed3c2c40dc9797c813b56d5da213c4e"
+      "source": "local",
+      "dependencies": {}
     },
     "com.unity.2d.sprite": {
       "version": "1.0.0",

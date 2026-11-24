@@ -99,7 +99,7 @@ Material:
     - _Base_Metalic_Scale: 1
     - _Base_MetallicScale_B: 1
     - _Base_NormalScale_B: 1
-    - _Base_Normal_Scale: 2.5
+    - _Base_Normal_Scale: -1.73
     - _Base_Overlay_Offset: 0
     - _Base_Overlay_Strength: 1
     - _Base_Saturation: 0.96
@@ -109,7 +109,7 @@ Material:
     - _HeightAmplitude: 0
     - _HeightSteps: 0
     - _L1_AO_Power: 1
-    - _L1_Brightness: 1
+    - _L1_Brightness: 0.35
     - _L1_Brightness_B: 1
     - _L1_HeightAmplitude: 0
     - _L1_HeightOffset_B: 0
@@ -125,7 +125,7 @@ Material:
     - _L1_SmoothnessScale_B: 1
     - _L1_Smoothness_Scale: 1
     - _L2_AO_Power: 1
-    - _L2_Brightness: 1
+    - _L2_Brightness: 0.87
     - _L2_Brightness_B: 1
     - _L2_HeightAmplitude: 0
     - _L2_HeightOffset_B: 0
@@ -140,12 +140,12 @@ Material:
     - _L2_Saturation_B: 1
     - _L2_SmoothnessScale_B: 1
     - _L2_Smoothness_Scale: 1
-    - _Layer1_Contrast: 2
-    - _Layer1_Opacity: 1
-    - _Layer1_Saturation: 1
-    - _Layer2_Contrast: 2
-    - _Layer2_Opacity: 1
-    - _Layer2_Saturation: 1
+    - _Layer1_Contrast: 2.11
+    - _Layer1_Opacity: 1.15
+    - _Layer1_Saturation: 0.8
+    - _Layer2_Contrast: 0.7
+    - _Layer2_Opacity: 0.47
+    - _Layer2_Saturation: 1.23
     - _Max_POM_Distance: 20
     - _Min_POM_Distance: 5
     - _QueueControl: 0
@@ -155,18 +155,18 @@ Material:
     - _Wet_Opacity: 1
     - _Wet_Smoothness: 0.95
     m_Colors:
-    - _Base_Offset: {r: 14.9, g: 0.09, b: 0, a: 0}
-    - _Base_Tiling: {r: 11.96, g: 9.77, b: 0, a: 0}
+    - _Base_Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _Base_Tiling: {r: 1.03, g: 1.26, b: 0, a: 0}
     - _Base_Tint: {r: 1, g: 1, b: 1, a: 1}
     - _Base_Tint_B: {r: 1, g: 1, b: 1, a: 1}
     - _L1_Offset: {r: 0, g: 0, b: 0, a: 0}
     - _L1_Tint_B: {r: 1, g: 1, b: 1, a: 1}
     - _L2_Tint_B: {r: 1, g: 1, b: 1, a: 1}
     - _Layer1_Tiling: {r: 1, g: 1, b: 0, a: 0}
-    - _Layer1_Tint: {r: 1, g: 1, b: 1, a: 1}
+    - _Layer1_Tint: {r: 0.668843, g: 0.6830188, b: 0.6730482, a: 1}
     - _Layer2_Offset: {r: 0, g: 0, b: 0, a: 0}
     - _Layer2_Tiling: {r: 1, g: 1, b: 0, a: 0}
-    - _Layer2_Tint: {r: 1, g: 1, b: 1, a: 1}
+    - _Layer2_Tint: {r: 0.8113208, g: 0.8113208, b: 0.8113208, a: 1}
     - _Wet_Color: {r: 0.29245278, g: 0.29245278, b: 0.29245278, a: 1}
     - _WetnessOffset: {r: 0, g: 0, b: 0, a: 0}
     - _WetnessTiling: {r: 1, g: 1, b: 0, a: 0}

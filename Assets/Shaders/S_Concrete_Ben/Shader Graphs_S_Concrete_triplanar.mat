@@ -63,10 +63,10 @@ Material:
     - _Hue: -4.6
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Rotate: 3.98
+    - _Rotate: -11.66
     - _Saturation: 0.73
-    - _Smoothness: 0.5
-    - _Strength: -2.57
+    - _Smoothness: 0.41
+    - _Strength: -1.53
     - _tilling_tri: 1
     m_Colors:
     - _Multiply_normal: {r: 1, g: -1, b: 1, a: 1}
