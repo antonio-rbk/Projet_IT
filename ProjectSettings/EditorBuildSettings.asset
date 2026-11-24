@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Labyrinthe.unity
     guid: 5c97614d8dc735d4eb7c704fe9543e9d
   - enabled: 1
-    path: Assets/Scenes/EndGame.unity
+    path: Assets/Scenes/Dev Scenes/EndGame Dev.unity
     guid: e9cff38d57556714b9a33e9649d98c18
   - enabled: 0
     path: Assets/Scenes/EndGameFix.unity
