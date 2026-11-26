@@ -43,9 +43,9 @@ Material:
     - _Density: 0.59
     - _DrawOrder: 0
     - _Offset: 5.18
-    - _Power: 5
+    - _Power: 7
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.7075472, g: 0.7075472, b: 0.7075472, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &8277845597074002853

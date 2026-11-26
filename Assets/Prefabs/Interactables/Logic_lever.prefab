@@ -12,8 +12,7 @@ GameObject:
   - component: {fileID: 7319564291263841639}
   - component: {fileID: 3300958563174841811}
   - component: {fileID: 4000648856699474458}
-  - component: {fileID: 135100637953074141}
-  - component: {fileID: 6972493915073592710}
+  - component: {fileID: 5307611001461926166}
   m_Layer: 6
   m_Name: lever
   m_TagString: Untagged
@@ -31,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0.36809245, y: 0.000000006785484, z: 0.000000031263163, w: 0.92978925}
   m_LocalPosition: {x: 0, y: 0.020000646, z: 0.059998494}
-  m_LocalScale: {x: 0.10913497, y: 0.10913488, z: 0.69019264}
+  m_LocalScale: {x: 0.10913497, y: 0.10913488, z: 0.9416298}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3646191783146164426}
@@ -114,7 +113,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 5.8308845, y: 5.769758, z: 2.5469618}
   m_Center: {x: 0.10938762, y: 1.1487314, z: 1.0361649}
---- !u!114 &135100637953074141
+--- !u!114 &5307611001461926166
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -123,58 +122,32 @@ MonoBehaviour:
   m_GameObject: {fileID: 3727987260787005845}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c72e2db7c8f3394c9b62869270ce534, type: 3}
+  m_Script: {fileID: 11500000, guid: 92c84072e0e56584db4edd36b0c010cc, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::OnClickEvent
-  onClickEvent:
+  m_EditorClassIdentifier: Assembly-CSharp::SimpleMover
+  moveMode: 1
+  useStepping: 1
+  totalSteps: 2
+  slotIndex: 0
+  valueMultiplier: 10000
+  onStepValueChanged:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: OnProgressEvent, Assembly-CSharp
-        m_MethodName: AddStep
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 6972493915073592710}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: SetTrigger
-        m_Mode: 5
+        m_MethodName: SetSlotValue
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: IsClick
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!95 &6972493915073592710
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3727987260787005845}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 0740f6cb5b14b3d4cac652c3dc9934c0, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
+  targetOffset: {x: 0, y: 2, z: 0}
+  targetRotationOffset: {x: 90, y: 0, z: 0}
+  duration: 0.5
 --- !u!1 &4034312096056158531
 GameObject:
   m_ObjectHideFlags: 0
@@ -199,9 +172,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4034312096056158531}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 1, z: -1.4210853e-14, w: 0.00000032782557}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: -1.5426636, y: 18.092545, z: -2.9033165}
-  m_LocalScale: {x: 0.27875012, y: 0.27875, z: 0.2787501}
+  m_LocalScale: {x: 0.27875006, y: 0.27875, z: 0.27875006}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3135864538112109600}
@@ -219,7 +192,6 @@ GameObject:
   - component: {fileID: 3135864538112109600}
   - component: {fileID: 4981880303567754642}
   - component: {fileID: 2450875111168565793}
-  - component: {fileID: 8826493988481027100}
   m_Layer: 6
   m_Name: base_lever
   m_TagString: Untagged
@@ -236,8 +208,8 @@ Transform:
   m_GameObject: {fileID: 4650682375306917525}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071069, y: 0.000000023191461, z: -0.0000000066108328, w: 0.70710677}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.0048, y: 0, z: 0}
+  m_LocalScale: {x: 0.63064784, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3646191783146164426}
@@ -299,24 +271,3 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8826493988481027100
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4650682375306917525}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 2, y: 1.1277692, z: 1.9999996}
-  m_Center: {x: 0, y: 0, z: 0}

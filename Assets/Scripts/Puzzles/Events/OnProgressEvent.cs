@@ -14,15 +14,17 @@ public struct ProgressSaveData
 public class OnProgressEvent : MonoBehaviour, ISaveable
 {
     public enum LogicMode { SimpleCount, SequenceOrder, ExactValue }
-
+   
     [Header("Configuration")]
     [SerializeField] private LogicMode mode = LogicMode.SimpleCount;
+    
 
     // --- CONDITIONS NAUGHTYATTRIBUTES ---
     private bool IsSimpleCount => mode == LogicMode.SimpleCount;
     private bool IsSequenceOrder => mode == LogicMode.SequenceOrder;
     private bool IsExactValue => mode == LogicMode.ExactValue;
-
+    private bool correctValue;
+    
     // --- REGLAGES COMPTEUR SIMPLE ---
     [ShowIf("IsSimpleCount")]
     [SerializeField] private int targetCount = 3;
@@ -39,11 +41,13 @@ public class OnProgressEvent : MonoBehaviour, ISaveable
     [ShowIf("IsExactValue")]
     [Tooltip("La valeur totale attendue (ex: 372 pour la combinaison 3 - 7 - 2)")]
     [SerializeField] private int targetValue = 372;
+    [SerializeField] private bool needManualTrigger;
 
     [Header("Events")]
     [SerializeField] private UnityEvent onStepValid;      // À chaque étape réussie ou changement de valeur
     [SerializeField] private UnityEvent onSuccess;        // Quand la combinaison/progression est validée
     [SerializeField] private UnityEvent onFailedOrReset;  // Si erreur ou réinitialisation
+    
 
     private int currentStepIndex = 0;
     private bool hasSequenceError = false;
@@ -56,6 +60,15 @@ public class OnProgressEvent : MonoBehaviour, ISaveable
     public void Increment()
     {
         AddStep(0);
+    }
+
+   public void CheckValue()
+    {
+        if (correctValue == true)
+        {
+            onSuccess?.Invoke();
+        }
+        else onFailedOrReset?.Invoke();
     }
 
     public void Decrement()
@@ -132,6 +145,7 @@ public class OnProgressEvent : MonoBehaviour, ISaveable
     /// </summary>
     public void SetSlotValue(int slotIndex, int value)
     {
+
         if (mode != LogicMode.ExactValue) return;
 
         slotValues[slotIndex] = value;
@@ -144,13 +158,18 @@ public class OnProgressEvent : MonoBehaviour, ISaveable
             totalSum += val;
         }
 
-        //Debug.Log($"[CADENAS] Slot {slotIndex} = {value} | Somme Actuelle : {totalSum} / Cible : {targetValue}");
+        Debug.Log($"[CADENAS] Slot {slotIndex} = {value} | Somme Actuelle : {totalSum} / Cible : {targetValue}");
+
+
 
         if (totalSum == targetValue)
         {
-            //Debug.Log("[CADENAS] COMBINAISON EXACTE ! Déclenchement de OnSuccess.");
+            correctValue = true;
+            Debug.Log("[CADENAS] COMBINAISON EXACTE ! Déclenchement de OnSuccess.");
+            if (needManualTrigger) return;
             onSuccess?.Invoke();
         }
+        else correctValue = false;
     }
 
     public void ResetProgress()

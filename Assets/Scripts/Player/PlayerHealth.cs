@@ -116,7 +116,7 @@ public class PlayerHealth : MonoBehaviour
                 Relaunch();
             }
         }
-        Debug.Log("Update");
+        //Debug.Log("Update");
         lifeText.text = _tempHealth.ToString();
 
         if (_clue.IsPressed())
@@ -128,7 +128,7 @@ public class PlayerHealth : MonoBehaviour
         else
         {
             _toucheCluePressed = false;
-            Debug.Log("touche est plus pressée");
+            //Debug.Log("touche est plus pressée");
         }
     }
 
