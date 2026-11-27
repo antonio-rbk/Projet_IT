@@ -14,7 +14,7 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
-  m_Fog: 1
+  m_Fog: 0
   m_FogColor: {r: 0, g: 0, b: 0, a: 1}
   m_FogMode: 3
   m_FogDensity: 0.156
@@ -886,7 +886,7 @@ GameObject:
   - component: {fileID: 16049240}
   - component: {fileID: 16049239}
   m_Layer: 0
-  m_Name: Point Light_2
+  m_Name: Point Light_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7760,7 +7760,7 @@ GameObject:
   - component: {fileID: 151581206}
   - component: {fileID: 151581205}
   m_Layer: 0
-  m_Name: Point Light_1
+  m_Name: Point Light_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -114885,7 +114885,7 @@ Transform:
   m_GameObject: {fileID: 461310753}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7112775, y: -0, z: -0, w: 0.7029113}
-  m_LocalPosition: {x: 42.685, y: 5.79, z: 4.8}
+  m_LocalPosition: {x: 42.31, y: 5.79, z: 4.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -116683,7 +116683,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 781389189474833376, guid: b186e56018b4a274eb49d5d20ddd46c5, type: 3}
       propertyPath: m_Name
-      value: '[CORE]'
+      value: CORE
       objectReference: {fileID: 0}
     - target: {fileID: 1112374586207043469, guid: b186e56018b4a274eb49d5d20ddd46c5, type: 3}
       propertyPath: m_SizeDelta.x
@@ -116807,7 +116807,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7304466496328119944, guid: b186e56018b4a274eb49d5d20ddd46c5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 22.86
+      value: 25.18
       objectReference: {fileID: 0}
     - target: {fileID: 7304466496328119944, guid: b186e56018b4a274eb49d5d20ddd46c5, type: 3}
       propertyPath: m_LocalPosition.y
@@ -116815,7 +116815,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7304466496328119944, guid: b186e56018b4a274eb49d5d20ddd46c5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.74
+      value: 4.7
       objectReference: {fileID: 0}
     - target: {fileID: 7304466496328119944, guid: b186e56018b4a274eb49d5d20ddd46c5, type: 3}
       propertyPath: m_LocalRotation.w
@@ -968180,6 +968180,8 @@ SceneRoots:
   - {fileID: 1413232712}
   - {fileID: 1802237565}
   - {fileID: 1482991537}
+  - {fileID: 151581207}
+  - {fileID: 16049241}
   - {fileID: 1254057884}
   - {fileID: 1549867761}
   - {fileID: 1616562349}
@@ -968219,12 +968221,10 @@ SceneRoots:
   - {fileID: 825316574}
   - {fileID: 1957144316}
   - {fileID: 1525936544}
-  - {fileID: 151581207}
-  - {fileID: 16049241}
   - {fileID: 461310756}
-  - {fileID: 1319227974}
-  - {fileID: 1163895868}
-  - {fileID: 834487899}
   - {fileID: 548978640}
   - {fileID: 1361791949}
   - {fileID: 1787024039}
+  - {fileID: 1319227974}
+  - {fileID: 1163895868}
+  - {fileID: 834487899}
