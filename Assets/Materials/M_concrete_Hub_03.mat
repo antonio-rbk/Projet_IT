@@ -131,7 +131,7 @@ Material:
     - _Base_Brightness_B: -1.67
     - _Base_HeightOffset_B: 4.92
     - _Base_HeightStr_B: 3.72
-    - _Base_Metalic_Scale: -1.15
+    - _Base_Metalic_Scale: 0.51
     - _Base_MetallicScale_B: 4.99
     - _Base_NormalScale_B: 3.98
     - _Base_Normal_Scale: 1.54
@@ -140,7 +140,7 @@ Material:
     - _Base_Saturation: 0.93
     - _Base_Saturation_B: 16.3
     - _Base_SmoothnessScale_B: 5.14
-    - _Base_Smoothness_Scale: 0.47
+    - _Base_Smoothness_Scale: 0.41
     - _Base_Tilling: 0.03
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
@@ -224,7 +224,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Base_Tint: {r: 0.7075472, g: 0.7075472, b: 0.7075472, a: 1}
+    - _Base_Tint: {r: 0.8207547, g: 0.8207547, b: 0.8207547, a: 1}
     - _Base_Tint_B: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
