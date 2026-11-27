@@ -51,7 +51,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 921dbe67994ae9c4cacd7a95082fff73, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: e8450d802fd30e14eb4fb3e37fdee7e7, type: 2}
+      objectReference: {fileID: 2100000, guid: 0e9a29b1d7e8c124b8b7eee584b7a1c0, type: 2}
     - target: {fileID: 919132149155446097, guid: 921dbe67994ae9c4cacd7a95082fff73, type: 3}
       propertyPath: m_Name
       value: SM_Bouteille4_1
