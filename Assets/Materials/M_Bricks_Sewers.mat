@@ -61,7 +61,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Layer1_Albedo:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: d9f35aa40ad959242bbadefb2475dff4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Layer1_MaskMap:
@@ -69,7 +69,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Layer1_Normal:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: d2833e6b5c2533f429ef49690f52faa9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Layer2_Albedo:
@@ -160,7 +160,7 @@ Material:
     - _HeightAmplitude: 0
     - _HeightSteps: 0
     - _L1_AO_Power: 1
-    - _L1_Brightness: 1
+    - _L1_Brightness: 0.51
     - _L1_Brightness_B: 1
     - _L1_HeightAmplitude: 0
     - _L1_HeightOffset_B: 0
@@ -169,12 +169,12 @@ Material:
     - _L1_Metalic_Scale: 0
     - _L1_MetallicScale_B: 1
     - _L1_NormalScale_B: 1
-    - _L1_Normal_Scale: 1
+    - _L1_Normal_Scale: 4.03
     - _L1_Overlay_Offset: 0
     - _L1_Overlay_Strength: 1
     - _L1_Saturation_B: 1
     - _L1_SmoothnessScale_B: 1
-    - _L1_Smoothness_Scale: 1
+    - _L1_Smoothness_Scale: 0.12
     - _L2_AO_Power: 1
     - _L2_Brightness: 1
     - _L2_Brightness_B: 1
@@ -191,11 +191,11 @@ Material:
     - _L2_Saturation_B: 1
     - _L2_SmoothnessScale_B: 1
     - _L2_Smoothness_Scale: 1
-    - _Layer1_Blend: 3
-    - _Layer1_Contrast: 2
-    - _Layer1_Opacity: 1
+    - _Layer1_Blend: 4.22
+    - _Layer1_Contrast: 0.53
+    - _Layer1_Opacity: 1.5
     - _Layer1_Saturation: 1
-    - _Layer1_Tilling: 1
+    - _Layer1_Tilling: 0.09
     - _Layer2_Blend: 3
     - _Layer2_Contrast: 2
     - _Layer2_Opacity: 1
@@ -230,7 +230,7 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _L1_Tint_B: {r: 1, g: 1, b: 1, a: 1}
     - _L2_Tint_B: {r: 1, g: 1, b: 1, a: 1}
-    - _Layer1_Tint: {r: 1, g: 1, b: 1, a: 1}
+    - _Layer1_Tint: {r: 0.7075472, g: 0.68431526, b: 0.62411004, a: 1}
     - _Layer2_Tint: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _Wet_Color: {r: 0.29245278, g: 0.29245278, b: 0.29245278, a: 1}

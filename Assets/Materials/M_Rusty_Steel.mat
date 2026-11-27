@@ -134,13 +134,13 @@ Material:
     - _Base_Metalic_Scale: 2.32
     - _Base_MetallicScale_B: 1.62
     - _Base_NormalScale_B: 2.34
-    - _Base_Normal_Scale: -2.65
+    - _Base_Normal_Scale: -1.58
     - _Base_Overlay_Offset: 0
     - _Base_Overlay_Strength: 1
     - _Base_Saturation: 1.53
     - _Base_Saturation_B: 1.61
     - _Base_SmoothnessScale_B: 0.78
-    - _Base_Smoothness_Scale: 0.34
+    - _Base_Smoothness_Scale: 0.56
     - _Base_Tilling: -0.59
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
