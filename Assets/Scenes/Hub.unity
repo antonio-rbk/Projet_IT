@@ -35,7 +35,7 @@ RenderSettings:
   m_DefaultReflectionMode: 0
   m_DefaultReflectionResolution: 128
   m_ReflectionBounces: 1
-  m_ReflectionIntensity: 1
+  m_ReflectionIntensity: 0
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
   m_UseRadianceAmbientProbe: 0
@@ -261406,6 +261406,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c8bca95f7c947b4db5fb152a0d693d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: com.cqf.urpvolumetricfog.runtime::VolumetricAdditionalLight
+  anisotropy: 0.25
+  scattering: 1
+  radius: 0.2
 --- !u!1001 &1449187069
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -315197,6 +315200,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c8bca95f7c947b4db5fb152a0d693d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: com.cqf.urpvolumetricfog.runtime::VolumetricAdditionalLight
+  anisotropy: 0.25
+  scattering: 1
+  radius: 0.2
 --- !u!114 &1482991535
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -330780,6 +330786,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3526692860646277512, guid: 91878a41e0ad3734f8295ad585cba626, type: 3}
   m_PrefabInstance: {fileID: 1720177411}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1721036544
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2445861561747756313, guid: 7f2f6cb353d743c45b6b73181a047418, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -20.901976
+      objectReference: {fileID: 0}
+    - target: {fileID: 2445861561747756313, guid: 7f2f6cb353d743c45b6b73181a047418, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.741
+      objectReference: {fileID: 0}
+    - target: {fileID: 2445861561747756313, guid: 7f2f6cb353d743c45b6b73181a047418, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 32.98112
+      objectReference: {fileID: 0}
+    - target: {fileID: 2445861561747756313, guid: 7f2f6cb353d743c45b6b73181a047418, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2445861561747756313, guid: 7f2f6cb353d743c45b6b73181a047418, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071069
+      objectReference: {fileID: 0}
+    - target: {fileID: 2445861561747756313, guid: 7f2f6cb353d743c45b6b73181a047418, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2445861561747756313, guid: 7f2f6cb353d743c45b6b73181a047418, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2445861561747756313, guid: 7f2f6cb353d743c45b6b73181a047418, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2445861561747756313, guid: 7f2f6cb353d743c45b6b73181a047418, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2445861561747756313, guid: 7f2f6cb353d743c45b6b73181a047418, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3078952022531215267, guid: 7f2f6cb353d743c45b6b73181a047418, type: 3}
+      propertyPath: m_Name
+      value: Balloon
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f2f6cb353d743c45b6b73181a047418, type: 3}
 --- !u!4 &1723206106 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3100823593773763107, guid: 6fd3e010437e9154c9d39fc4010581ff, type: 3}
@@ -330840,7 +330903,7 @@ PrefabInstance:
     - target: {fileID: 2950461848365992530, guid: a0e4dcea8ccce594f9d339cbbcd653d2, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 1611803447}
+      objectReference: {fileID: -5827887463165953215, guid: c0398b7e348941549a0833d9cbd754a8, type: 3}
     - target: {fileID: 5035073252755253959, guid: a0e4dcea8ccce594f9d339cbbcd653d2, type: 3}
       propertyPath: ownedEditableMesh
       value: 
@@ -336472,6 +336535,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c8bca95f7c947b4db5fb152a0d693d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: com.cqf.urpvolumetricfog.runtime::VolumetricAdditionalLight
+  anisotropy: 0.25
+  scattering: 1
+  radius: 0.2
 --- !u!114 &1802237563
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -903189,3 +903255,4 @@ SceneRoots:
   - {fileID: 1756038843}
   - {fileID: 1802237565}
   - {fileID: 1482991537}
+  - {fileID: 1721036544}
