@@ -68,6 +68,22 @@ Material:
         m_Texture: {fileID: 2800000, guid: 227fcc899e48a214f8dce04a650f1208, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _ParallaxOcclusionMapping_5021e599611f43dda020e92c2c230460_Heightmap_2_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 227fcc899e48a214f8dce04a650f1208, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_3669ee0d2b724587a838d695896850c5_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 522ecfb499d006b43a26e0693b0312ee, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_b829efaa330e4c60a18800e191c3ca33_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 0d4575d178edf7242a079703eac5cbdb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_f22869742c2d4351a106167cad84b801_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 1ac3a4d59f22ae84daf99fbb8610f7bc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_f5d11967cd2847ccbe4c11ef3576e944_Texture_1_Texture2D:
         m_Texture: {fileID: 2800000, guid: 0d4575d178edf7242a079703eac5cbdb, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -86,6 +102,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _Texture2DAsset_9b566e6f357646cdaa65759ee8fb46c4_Out_0_Texture2D:
         m_Texture: {fileID: 2800000, guid: 0d4575d178edf7242a079703eac5cbdb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Triplanar_b1b2defb42d24e8aa42cb99329f815d0_Texture_1_Texture2D:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -123,6 +143,8 @@ Material:
     - _Metallic: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.005
+    - _ParallaxAmplitude: 0
+    - _ParallaxSteps: 5
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
@@ -132,7 +154,7 @@ Material:
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _Surface: 0
-    - _Tilling: 0.3
+    - _Tilling: -12.29
     - _WorkflowMode: 1
     - _XRMotionVectorsPass: 1
     - _ZWrite: 1
