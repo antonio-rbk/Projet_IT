@@ -10,15 +10,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: e1674e0e84eaae444add7413e4b83cd6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -22.42
+      value: -3.8400002
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e1674e0e84eaae444add7413e4b83cd6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.8920045
+      value: -0.007995129
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e1674e0e84eaae444add7413e4b83cd6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 43.296
+      value: 5.065998
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e1674e0e84eaae444add7413e4b83cd6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -51,7 +51,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: e1674e0e84eaae444add7413e4b83cd6, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 5ad9c77ce14a771459d1aa91f87f65ed, type: 2}
+      objectReference: {fileID: 2100000, guid: 755f09ff01a34b34ca69b0cec01b6607, type: 2}
     - target: {fileID: 919132149155446097, guid: e1674e0e84eaae444add7413e4b83cd6, type: 3}
       propertyPath: m_Name
       value: SM_Bouteille4_2

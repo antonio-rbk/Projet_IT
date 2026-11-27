@@ -104,3 +104,7 @@ x86/
 
 # Built Visual Studio Code Extensions
 *.vsix
+Assets/Scenes/Hub/Lightmap-4_comp_dir.png
+Assets/Scenes/Hub/Lightmap-4_comp_dir.png.meta
+Assets/Scenes/Hub/Lightmap-4_comp_light.exr
+Assets/Scenes/Hub/Lightmap-4_comp_light.exr.meta
