@@ -1,0 +1,479 @@
+fileFormatVersion: 2
+guid: a30b027d3c7ceca468e0f8aba85a3000
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: T_Blood_0
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1219
+        width: 401
+        height: 524
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be7a1a5bfe3f5f4782b7ad991863366
+      internalID: -896824847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Blood_2
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 1163
+        width: 280
+        height: 626
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b62b8552d920a74782935cb219af97d
+      internalID: 1950745416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Blood_3
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 1218
+        width: 486
+        height: 543
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51e798a020759c45a9fe4ab679dd254
+      internalID: 274698044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Blood_4
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 941
+        width: 389
+        height: 872
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e624f481c6f7644ade97dc50ad1f55
+      internalID: 2037017506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Blood_5
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1239
+        width: 393
+        height: 474
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0801404802bbfe46bf598835d134ad5
+      internalID: 571100913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Blood_15
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 621
+        width: 438
+        height: 742
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e41542431ac6d41bc5263714628de1
+      internalID: 1181652844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Blood_24
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 588
+        width: 489
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a6521622314854cb5385af4b4c497b
+      internalID: 1818182085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Blood_25
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 574
+        width: 445
+        height: 556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc8de537263684439bd9416cef110b3
+      internalID: -1070364733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Blood_26
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 612
+        width: 478
+        height: 551
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aaa9d3d429fe0c4387fb4978627449b
+      internalID: 1674689244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Blood_34
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 128
+        width: 382
+        height: 421
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947fd7ddac644d94ea282741dbd93c6a
+      internalID: 697193476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Blood_35
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 42
+        width: 523
+        height: 504
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6821d48cd2384284a9f93a32c8aaf2eb
+      internalID: 641890037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Blood_38
+      rect:
+        serializedVersion: 2
+        x: 2060
+        y: 36
+        width: 422
+        height: 652
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e77676487c7794186fa724146dd8ac
+      internalID: -1822243984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Blood_39
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 387
+        width: 520
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a91c3602399604896c3a02faf84bb5
+      internalID: -967987312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Blood_42
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 24
+        width: 328
+        height: 380
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ecccee65ec331d4db2d7aca4da558ba
+      internalID: 956688573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c2ac15fbdfb592043b7cc8ea6cff8b7c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      T_Blood_0: -896824847
+      T_Blood_1: -1646111444
+      T_Blood_10: -1512601895
+      T_Blood_11: 650882423
+      T_Blood_12: -2010876422
+      T_Blood_13: 723538559
+      T_Blood_14: -699695948
+      T_Blood_15: 1181652844
+      T_Blood_16: 282821286
+      T_Blood_17: 1138717253
+      T_Blood_18: 631515130
+      T_Blood_19: -994180217
+      T_Blood_2: 1950745416
+      T_Blood_20: 182783591
+      T_Blood_21: 1481393868
+      T_Blood_22: 1234674358
+      T_Blood_23: 1694207143
+      T_Blood_24: 1818182085
+      T_Blood_25: -1070364733
+      T_Blood_26: 1674689244
+      T_Blood_27: 569222696
+      T_Blood_28: -663586704
+      T_Blood_29: 1093346988
+      T_Blood_3: 274698044
+      T_Blood_30: -1495550456
+      T_Blood_31: -875980664
+      T_Blood_32: -1754957998
+      T_Blood_33: -1736369875
+      T_Blood_34: 697193476
+      T_Blood_35: 641890037
+      T_Blood_36: -806519073
+      T_Blood_37: -1937358701
+      T_Blood_38: -1822243984
+      T_Blood_39: -967987312
+      T_Blood_4: 2037017506
+      T_Blood_40: 147821876
+      T_Blood_41: -222708288
+      T_Blood_42: 956688573
+      T_Blood_43: 2011409317
+      T_Blood_44: 14885276
+      T_Blood_45: 1825068229
+      T_Blood_46: -1552445679
+      T_Blood_47: -1914206286
+      T_Blood_48: -107169188
+      T_Blood_49: 1683514522
+      T_Blood_5: 571100913
+      T_Blood_50: -955201766
+      T_Blood_51: 91510128
+      T_Blood_6: -146544395
+      T_Blood_7: -1345976535
+      T_Blood_8: 1896961182
+      T_Blood_9: 2034764
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

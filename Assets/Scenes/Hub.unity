@@ -218589,6 +218589,66 @@ Mesh:
       - serializedVersion: 1
         m_IndexStart: 0
         m_IndexCount: 0
+--- !u!1 &825316572
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 825316574}
+  - component: {fileID: 825316573}
+  m_Layer: 0
+  m_Name: Blood_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &825316573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 825316572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0777d029ed3dffa4692f417d4aba19ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.DecalProjector
+  m_Material: {fileID: 2100000, guid: 2cffbdbe31dda61469c330b3acb2f248, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_RenderingLayerMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_ScaleMode: 0
+  m_Offset: {x: 0, y: 0, z: 0.5}
+  m_Size: {x: 2, y: 2, z: 1}
+  m_FadeFactor: 1
+  version: 1
+  m_DecalLayerMask: 1
+--- !u!4 &825316574
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 825316572}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -49.912, y: 5.66, z: -27.72}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &825480209
 Mesh:
   m_ObjectHideFlags: 0
@@ -317093,6 +317153,126 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 767305160929532497, guid: 8fd1602cde48bc5438aaf462103a2389, type: 3}
   m_PrefabInstance: {fileID: 1525823635}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1525936542
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1525936544}
+  - component: {fileID: 1525936543}
+  m_Layer: 0
+  m_Name: Blood_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1525936543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1525936542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0777d029ed3dffa4692f417d4aba19ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.DecalProjector
+  m_Material: {fileID: 2100000, guid: 0939f391b9a6977439637d1bff59456e, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_RenderingLayerMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_ScaleMode: 0
+  m_Offset: {x: 0, y: 0, z: 0.5}
+  m_Size: {x: 2, y: 2, z: 1}
+  m_FadeFactor: 1
+  version: 1
+  m_DecalLayerMask: 1
+--- !u!4 &1525936544
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1525936542}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -46.96, y: 5.66, z: -27.72}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1527050935
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1527050937}
+  - component: {fileID: 1527050936}
+  m_Layer: 0
+  m_Name: Blood
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1527050936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527050935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0777d029ed3dffa4692f417d4aba19ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.DecalProjector
+  m_Material: {fileID: 2100000, guid: 5f1bcaf634baa1448a0242244aa7b1bb, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_RenderingLayerMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_ScaleMode: 0
+  m_Offset: {x: 0, y: 0, z: 0.5}
+  m_Size: {x: 2, y: 2, z: 1}
+  m_FadeFactor: 1
+  version: 1
+  m_DecalLayerMask: 1
+--- !u!4 &1527050937
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527050935}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -51.404, y: 5.66, z: -27.72}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1529970905
 GameObject:
   m_ObjectHideFlags: 0
@@ -391013,6 +391193,66 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: be5610b334543d94b99c2b0b9df32605, type: 3}
   m_PrefabInstance: {fileID: 1954473766}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1957144314
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1957144316}
+  - component: {fileID: 1957144315}
+  m_Layer: 0
+  m_Name: Blood_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1957144315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1957144314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0777d029ed3dffa4692f417d4aba19ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.DecalProjector
+  m_Material: {fileID: 2100000, guid: 9a2daeacb3fd2f847ad141468b3ff7fe, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_RenderingLayerMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_ScaleMode: 0
+  m_Offset: {x: 0, y: 0, z: 0.5}
+  m_Size: {x: 2, y: 2, z: 1}
+  m_FadeFactor: 1
+  version: 1
+  m_DecalLayerMask: 1
+--- !u!4 &1957144316
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1957144314}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.00000008940697, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -48.382, y: 5.66, z: -27.72}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &1959279797
 Mesh:
   m_ObjectHideFlags: 0
@@ -877675,6 +877915,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1039607410}
     m_Modifications:
+    - target: {fileID: 6305777980526827024, guid: 3a308f3a5805ef24c9ef3acc62b85300, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 5ad9c77ce14a771459d1aa91f87f65ed, type: 2}
     - target: {fileID: 1507128390719022300, guid: 86d0777f123f95642af7cdcec2c62e70, type: 3}
       propertyPath: duration
       value: 15
@@ -877751,10 +877995,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Water_par
       objectReference: {fileID: 0}
-    - target: {fileID: 6305777980526827024, guid: 3a308f3a5805ef24c9ef3acc62b85300, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 5ad9c77ce14a771459d1aa91f87f65ed, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -887028,43 +887268,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4923007649312565934, guid: 805a1279e4bd25a489daf49f738deebb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -56.175365
+      value: -56.182625
       objectReference: {fileID: 0}
     - target: {fileID: 4923007649312565934, guid: 805a1279e4bd25a489daf49f738deebb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.3182306
+      value: 4.3631287
       objectReference: {fileID: 0}
     - target: {fileID: 4923007649312565934, guid: 805a1279e4bd25a489daf49f738deebb, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -31.130188
+      value: -31.126188
       objectReference: {fileID: 0}
     - target: {fileID: 4923007649312565934, guid: 805a1279e4bd25a489daf49f738deebb, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071068
+      value: 0.7070245
       objectReference: {fileID: 0}
     - target: {fileID: 4923007649312565934, guid: 805a1279e4bd25a489daf49f738deebb, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.0015240248
       objectReference: {fileID: 0}
     - target: {fileID: 4923007649312565934, guid: 805a1279e4bd25a489daf49f738deebb, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.7071068
+      value: 0.70718056
       objectReference: {fileID: 0}
     - target: {fileID: 4923007649312565934, guid: 805a1279e4bd25a489daf49f738deebb, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -0.0031153397
       objectReference: {fileID: 0}
     - target: {fileID: 4923007649312565934, guid: 805a1279e4bd25a489daf49f738deebb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 0.376
       objectReference: {fileID: 0}
     - target: {fileID: 4923007649312565934, guid: 805a1279e4bd25a489daf49f738deebb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 90
+      value: 90.012
       objectReference: {fileID: 0}
     - target: {fileID: 4923007649312565934, guid: 805a1279e4bd25a489daf49f738deebb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -0.129
       objectReference: {fileID: 0}
     - target: {fileID: 5699826441810489364, guid: 805a1279e4bd25a489daf49f738deebb, type: 3}
       propertyPath: m_Name
@@ -903255,4 +903495,8 @@ SceneRoots:
   - {fileID: 1756038843}
   - {fileID: 1802237565}
   - {fileID: 1482991537}
+  - {fileID: 1527050937}
+  - {fileID: 825316574}
+  - {fileID: 1957144316}
+  - {fileID: 1525936544}
   - {fileID: 1721036544}
