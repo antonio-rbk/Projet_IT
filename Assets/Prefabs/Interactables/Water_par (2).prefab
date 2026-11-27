@@ -53,9 +53,9 @@ MonoBehaviour:
   onStepValueChanged:
     m_PersistentCalls:
       m_Calls: []
-  targetOffset: {x: 0, y: -2, z: 0}
+  targetOffset: {x: 0, y: -0.5, z: 0}
   targetRotationOffset: {x: 0, y: 90, z: 0}
-  duration: 2
+  duration: 20
 --- !u!1 &7480260667548965675
 GameObject:
   m_ObjectHideFlags: 0
@@ -84,8 +84,8 @@ Transform:
   m_GameObject: {fileID: 7480260667548965675}
   serializedVersion: 2
   m_LocalRotation: {x: -0.70710677, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 15.384659, y: 4.517211, z: -10.961647}
-  m_LocalScale: {x: 17.656963, y: 11.135265, z: 3.1165032}
+  m_LocalPosition: {x: 10.9629, y: 5.9196, z: -10.961647}
+  m_LocalScale: {x: 8.812591, y: 11.135265, z: 0.31165034}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1528554034983280476}
